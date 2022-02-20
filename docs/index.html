@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<link rel="icon" href="/todo-app/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content=""><title>Svelte localStorage Todo App</title><meta name="viewport" content="width=device-width, initial-scale=1.0" data-svelte="svelte-1s3ufu8"><meta charset="UTF-8" data-svelte="svelte-1s3ufu8">
+	<link rel="stylesheet" href="/todo-app/_app/assets/vendor-86f8c920.css">
+	<link rel="stylesheet" href="/todo-app/_app/assets/pages/index.svelte-15cf65dc.css">
+	<link rel="modulepreload" href="/todo-app/_app/start-69fe47b0.js">
+	<link rel="modulepreload" href="/todo-app/_app/chunks/vendor-87c6f959.js">
+	<link rel="modulepreload" href="/todo-app/_app/layout.svelte-455c7977.js">
+	<link rel="modulepreload" href="/todo-app/_app/pages/index.svelte-890d634c.js">
+	</head>
+	<body>
+		<div>
+
+
+
+
+<main class="container svelte-19vi86s"><h1 class="title svelte-19vi86s">Basic Svelte todo</h1>
+	<p class="subtitle svelte-19vi86s">with localstorage store</p>
+	<div class="container svelte-1i0l1h2"><div class="completed svelte-1i0l1h2">0 out of 0 completed
+	</div>
+
+	<form><label for="add todo">Add todo:</label>
+		<input type="text" name="add todo" placeholder="E.g. Buy Milk">
+		<button>Add</button></form>
+
+	<div class="todo-list svelte-1i0l1h2"></div>
+</div>
+</main>
+
+
+		<script type="module" data-hydrate="1pf6kdr">
+		import { start } from "/todo-app/_app/start-69fe47b0.js";
+		start({
+			target: document.querySelector('[data-hydrate="1pf6kdr"]').parentNode,
+			paths: {"base":"/todo-app","assets":"/todo-app"},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/todo-app/_app/layout.svelte-455c7977.js"),
+						import("/todo-app/_app/pages/index.svelte-890d634c.js")
+				],
+				url: new URL("http://sveltekit-prerender/todo-app"),
+				params: {}
+			}
+		});
+	</script></div>
+	</body>
+</html>
