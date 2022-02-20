@@ -11,7 +11,7 @@ const config = {
             assets: "docs"
 		}),
 		paths:{
-			base: dev ? "" : "/todo-app",
+			base: dev ? "" : "/svelte-todo-app",
 		}
 	}
 };
