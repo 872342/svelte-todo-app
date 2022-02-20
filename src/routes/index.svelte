@@ -11,7 +11,7 @@
 
 <main class="container">
 	<h1 class="title">Basic Svelte todo</h1>
-	<p class="subtitle">with localstorage store</p>
+	<p class="subtitle">with localstorage store.</p>
 	<Todoform />
 </main>
 
